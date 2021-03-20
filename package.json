@@ -1,0 +1,28 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Homepage for Studion Eventos provider and services.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx live-server src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaduhAndrade/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Cadu Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaduhAndrade/studion/issues"
+  },
+  "homepage": "https://github.com/CaduhAndrade/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
