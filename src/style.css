@@ -1,46 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Monteserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 
-* {
-  box-sizing: border-box;
-}
+@import "./css/_variables.css";
+@import "./css/_base.css";
+@import "./css/_utils.css";
+@import "./css/_logo.css";
+@import "./css/_btn.css";
 
-:root {
-  font-family: "Monteserrat", sans-serif;
-  font-size: 16px;
-}
+@import "./css/_navbar.css";
+@import "./css/_hero.css";
+@import "./css/_footer.css";
 
-body {
-  margin: 0;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-
-li {
-  margin-right: 0.625rem;
-}
-
-.navbar {
-  position: fixed;
-  display: grid;
-  grid-template-columns: 1fr 9fr;
-  align-items: center;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  padding: 0 1rem;
-  background-color: #000;
-  color: #fff;
-}
-
-.navbar__links {
-  justify-self: end;
-}
-
-.navbar__links a {
-  color: #fff;
-  text-decoration: none;
-}
+@import "./css/_home.css";
+@import "./css/_contacts.css";
